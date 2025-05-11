@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Database</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Movie Database</h1>
+  </header>
+
+  <section>
+    <div class="genre-filter">
+      <label for="Fantasy">Fantasy</label>
+      <input type="checkbox" id="Fantasy" class="genre-checkbox" checked />
+
+      <label for="drama">Drama</label>
+      <input type="checkbox" id="drama" class="genre-checkbox" checked />
+
+      <label for="comedy">Comedy</label>
+      <input type="checkbox" id="comedy" class="genre-checkbox" checked />
+
+      <label for="action">Action</label>
+      <input type="checkbox" id="action" class="genre-checkbox" checked />
+
+      <label for="romance">Romance</label>
+      <input type="checkbox" id="romance" class="genre-checkbox" checked />
+
+      <label for="thriller">Thriller</label>
+      <input type="checkbox" id="thriller" class="genre-checkbox" checked />
+
+      <label for="horror">Horror</label>
+      <input type="checkbox" id="horror" class="genre-checkbox" checked />
+    </div>
+
+    <h2>Featured Movies</h2>
+    <div class="movie-container">
+
+      <!-- Movie 1 -->
+      <div class="movie Fantasy">
+        <img src="images/bahubali the beginning.jpg" alt="Movie 1" />
+        <div class="movie-info">
+          <h3>Bahubali - The Beginning</h3>
+          <p>Summary of Movie: "Baahubali: The Beginning" is a 2015 Indian epic fantasy film directed by S. S. Rajamouli. The story revolves around the fictional kingdom of Mahishmati and the power struggle within the royal family.</p>
+          <p>Genres: Fantasy</p>
+          <button class="read-more">Read More</button>
+          <div class="extra-info">
+            <p>Director: S. S. Rajamouli</p>
+            <p>Release Date: July 10, 2015</p>
+            <p>Rating: 4.7/5</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 2 -->
+      <div class="movie Fantasy action">
+        <img src="images/bb2.jpg" alt="Movie 2" />
+        <div class="movie-info">
+          <h3>Bahubali - The Conclusion</h3>
+          <p>Summary of Movie: The epic continuation of Baahubali, uncovering Amarendra Baahubali’s death and Mahendra’s rise.</p>
+          <p>Genres: Action, Fantasy</p>
+          <button class="read-more">Read More</button>
+          <div class="extra-info">
+            <p>Director: S. S. Rajamouli</p>
+            <p>Release Date: April 28, 2017</p>
+            <p>Rating: 4.9/5</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 3 -->
+      <div class="movie thriller">
+        <img src="images/goodachari.jpg" alt="Movie 3" />
+        <div class="movie-info">
+          <h3>Goodachari</h3>
+          <p>Summary of Movie: A young man joins an intelligence agency and uncovers hidden truths in this gripping spy thriller.</p>
+          <p>Genres: Thriller</p>
+          <button class="read-more">Read More</button>
+          <div class="extra-info">
+            <p>Director: Sashi Kiran Tikka</p>
+            <p>Release Date: August 3, 2018</p>
+            <p>Rating: 4.5/5</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 4 -->
+      <div class="movie horror">
+        <img src="images/annabelle.jpg" alt="Movie 4" />
+        <div class="movie-info">
+          <h3>Annabelle</h3>
+          <p>Summary of Movie: A haunted doll unleashes terror in this eerie installment of the Conjuring universe.</p>
+          <p>Genres: Horror</p>
+          <button class="read-more">Read More</button>
+          <div class="extra-info">
+            <p>Director: John R. Leonetti</p>
+            <p>Release Date: October 3, 2014</p>
+            <p>Rating: 4.2/5</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 5 -->
+      <div class="movie romance">
+        <img src="images/sita.jpg" alt="Movie 5" />
+        <div class="movie-info">
+          <h3>Sita Raman</h3>
+          <p>Summary of Movie: A soldier and a woman fall in love through an exchange of letters. Heartfelt romance with a mystery twist.</p>
+          <p>Genres: Romance</p>
+          <button class="read-more">Read More</button>
+          <div class="extra-info">
+            <p>Director: Hanu Raghavapudi</p>
+            <p>Release Date: August 5, 2022</p>
+            <p>Rating: 4.3/5</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 6 -->
+      <div class="movie comedy">
+        <img src="images/jathi.jpg" alt="Movie 6" />
+        <div class="movie-info">
+          <h3>Jathiratnalu</h3>
+          <p>Summary of Movie: A hilarious ride as three village friends land in unexpected trouble in the city.</p>
+          <p>Genres: Comedy</p>
+          <button class="read-more">Read More</button>
+          <div class="extra-info">
+            <p>Director: Anudeep KV</p>
+            <p>Release Date: March 11, 2021</p>
+            <p>Rating: 4.6/5</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
