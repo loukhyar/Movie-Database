@@ -42,7 +42,7 @@ MovieDatabase/
 ├── js/
 │   └── script.js
 └── images/
-├── bahubali the beginning.jpg
+|   └── bahubali the beginning.jpg
 |   └── bb2.jpg
 |   └── goodachari.jpg
 |   └── annabelle.jpg
