@@ -43,11 +43,11 @@ MovieDatabase/
 │   └── script.js
 └── images/
 ├── bahubali the beginning.jpg
-├── bb2.jpg
-├── goodachari.jpg
-├── annabelle.jpg
-├── sita.jpg
-└── jathi.jpg
+|   └── bb2.jpg
+|   └── goodachari.jpg
+|   └── annabelle.jpg
+|   └── sita.jpg
+|   └── jathi.jpg
 
 ```
 
